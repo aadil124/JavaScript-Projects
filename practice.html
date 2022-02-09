@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>JS is Everywhere!!</h1>
+
+<script type="text/javascript">
+
+// var x = 5   
+// var y = 6
+// var z= x+y
+// console.log(z)
+
+// let x = 5
+// let y = 7
+// x=10
+// console.log(x+y)
+
+
+// const x = 5
+// const y = 7
+
+// console.log(x+y)
+
+
+
+// const name = "Aabid"
+// const age = 27
+// const greet = ` I am ${name} and my age is ${age}`
+// console.log(greet)
+
+// const age = 40
+
+// // if (age >=18){
+// // console.log("You are adult")
+// // }else{console.log("You are child")}
+
+// Objects
+
+// const employees = {
+// name: {
+//     emp1:"aabid",
+//     emp2:"adil"},
+
+// age: 27,
+// status: "coder,Engineer"
+// }
+// // // console.log(employees.name.emp1)
+
+// // // destructuring
+
+// const {name:{emp1,emp2},age:myage,status} = employees   
+// // console.log(emp1)
+// console.log(myage)
+
+
+// Functions
+
+// const sum = function () {
+//     const x = 5
+//     const y = 6
+//     console.log(x+y)
+// }
+// sum()
+
+// const sum = ()=> {
+//     const x = 5
+//     const y = 6
+//     console.log("sum is ", x*y)
+// }
+// sum()
+
+
+// const greet = (name)=> {
+    
+//     console.log(`Hello ${name}`)
+// }
+// greet("Aabid")
+
+// const greet = (name,age)=> {
+    
+//     console.log(`Hello ${name}, age ${age}`)
+// }
+// greet("Aabid",27)
+
+// Return kara sakte hai
+// const greet = (name,age)=> {
+    
+//    return (`Hello ${name}, age ${age}`)
+// }
+// console.log(greet("Aabid",27))
+
+// single line me aisa likh sakte hai
+// const greet = (name,age)=>      
+//     `Hello ${name}, age ${age}`
+ 
+//  console.log(greet("Aabid",27))
+
+// Object ka use
+
+const greet =(person)=>{
+
+    const {name,age}=person
+
+    console.log(`My name is ${name} and age is ${age}`)
+}
+greet({name:"Aabid", age:27})
+
+
+// const greet =({name,age})=>{
+
+// console.log(`My name is ${name} and age is ${age}`)
+// }
+// greet({name:"Aabid", age:27})
+
+
+// short formate me likhne ka method 
+
+// const greet = (name,age)=> ({result:`Hello ${name}, age ${age}`})
+
+// console.log(greet("Aabid",27).result)
+
+
+
+
+</script>
+
+
+ 
+
+</body>
+</html>
