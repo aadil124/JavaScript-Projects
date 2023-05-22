@@ -1,9 +1,9 @@
 function showTime(){
-var d = new Date();
-var h = d.getHours();
-var m = d.getMinutes();
-var s = d.getSeconds();
-var session = "AM"
+let d = new Date();
+let h = d.getHours();
+let m = d.getMinutes();
+let s = d.getSeconds();
+let session = "AM"
 
 
     
@@ -20,7 +20,7 @@ if(h>12){
  s= s < 10 ? "0"+s : s
 
 
-var time = h +" : "+ m + " : " + s +" "+ session;
+let time = h +" : "+ m + " : " + s +" "+ session;
 document.getElementsByTagName("h1")[0].innerText = time
 
 setTimeout(showTime,1000);
