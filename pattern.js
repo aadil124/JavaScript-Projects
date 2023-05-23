@@ -55,7 +55,7 @@
 
 // }
 
-var rows= prompt("please enter number");
+let rows= prompt("please enter number");
 pattern();
 function pattern(){
     for (let i = 1; i <= rows; i++) {
